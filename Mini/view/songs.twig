@@ -10,7 +10,7 @@
     <div class="box">
         <h2>Add a song</h2>
         <form action="/songs/addsong" method="POST">
-            <input type="text" name="artist" value="" placeholder="Artist" required />
+            <input type="text" name="artist" value="" placeholder="Artist" required oninvalid="this.setCustomValidity('Witinnovation')" />
             <input type="text" name="track" value="" placeholder="Track" required />
             <input type="text" name="link" value="" placeholder="Link" />
             <input type="text" name="year" value="" placeholder="Year" />
