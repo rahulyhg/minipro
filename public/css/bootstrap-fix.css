@@ -9,6 +9,7 @@ padding: 0px 15px;
 height: 50px;
 }
 
+
 .nav {
   background-color: #eee;
   border: 1px solid #ccc;
@@ -48,6 +49,18 @@ height: 50px;
 }
 
 @media (min-width: 768px) {
+
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+
   .nav {
     max-height: 52px;
   }
