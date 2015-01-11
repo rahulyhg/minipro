@@ -2,6 +2,13 @@
   background:white;
 }
 
+.navbar-brand {
+padding: 0px 15px;
+}
+.navbar-brand  img{
+height: 50px;
+}
+
 .nav {
   background-color: #eee;
   border: 1px solid #ccc;
